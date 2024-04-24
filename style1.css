@@ -1,0 +1,76 @@
+body{
+  background: #ffeedd;
+  font-family: 'Arial';
+}
+.calc{
+  width: 21%;
+  height: 65%;
+  position: absolute;
+  right: 20px;
+  top:20px;
+  background: black;
+  text-align: center;
+  border-radius: 10px;
+}
+.display{
+  width: 275px;
+  color:#fff;
+  border: solid #ff9f0a 1mm;
+  height: 50px;
+  text-align:right;
+  margin-top: 20px;
+  font-size: 45px;
+  margin-bottom: 5px;
+  background: black;
+  border-radius: 10px;
+}
+
+.num,.sing,.clear{
+  color:#fff;
+  margin-top: 5px;
+  width: 65px;
+  height: 65px;
+  font-size: 34px;
+  border-radius: 100%;
+  border: none;
+  transition-duration:.5s;
+  transition-property: color background;
+}
+.clear{
+  font-weight: bold;
+  border-radius: 30px;
+  background: #ff9f0a;
+  width: 205px;
+}
+.num{
+  background: #333333;
+}
+.sing{
+  font-weight: bold;
+  background: #ff9f0a;
+}
+.clear:hover{
+  color:#ff9f0a;
+  background: #fff;
+}
+.num:hover{
+  color:#ff9f0a;
+  background: #fff;
+}
+.sing:hover{
+  color:#ff9f0a;
+  background: #fff;
+}
+.clock{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color:blue;
+  font-size:50px;
+}
+.clock input{
+  background:#ffeedd;
+  color:blue;
+  font-size:50px;
+  border: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="windows-1251">
+    <title>Практична робота 10</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script1.js"></script>
+  </head>
+  <body onLoad="clock()">
+    <div class="calc">
+      <form>
+        <input type="text" class="display" value = "0" id="display" disabled/><br/>
+        <input type="button" value="7" class="num" onClick="enterNum(7)"/>
+        <input type="button" value="8" class="num" onClick="enterNum(8)"/>
+        <input type="button" value="9" class="num" onClick="enterNum(9)"/>
+        <input type="button" value=":" class="sing" onClick="enterSing(':')"/><br/>
+        <input type="button" value="4" class="num" onClick="enterNum(4)"/>
+        <input type="button" value="5" class="num" onClick="enterNum(5)"/>
+        <input type="button" value="6" class="num" onClick="enterNum(6)"/>
+        <input type="button" value="х" class="sing" onClick="enterSing('x')"/><br/>
+        <input type="button" value="1" class="num" onClick="enterNum(1)"/>
+        <input type="button" value="2" class="num" onClick="enterNum(2)"/>
+        <input type="button" value="3" class="num" onClick="enterNum(3)"/>
+        <input type="button" value="-" class="sing" onClick="enterSing('-')"/><br/>
+        <input type="button" value="кор" class="num" onClick="kor()"/>
+        <input type="button" value="0" class="num" onClick="enterNum(0)"/>
+        <input type="button" value="." class="num" onClick="enterNum('.')"/>
+        <input type="button" value="+" class="sing" onClick="enterSing('+')"/><br/>
+        <input type="button" value="Скидання" class="clear" onClick="cle()"/>
+        <input type="button" value="=" class="sing" onClick="equal()"/>
+      </form>
+    </div>
+    <div class="clock">
+      <form>
+        <em>Час: </em><input type="text" id="clock" disabled/>
+      </form>
+    </div>
+  </body>
+</html>
